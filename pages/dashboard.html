@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Skill Gap Analyzer - Dashboard</title>
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<section class="dashboard">
+
+    <h1>📊 AI Skill Gap Analyzer</h1>
+
+    <p>Welcome to your Career Dashboard</p>
+
+
+    <!-- Student Profile -->
+
+    <div class="dashboard-card">
+
+        <h2>👤 Student Profile</h2>
+    <p>
+    <strong>Name:</strong>
+    <span id="dashboardName">Student</span>
+</p>
+
+<p>
+    <strong>College:</strong>
+    <span id="dashboardCollege">-</span>
+</p>
+
+<p>
+    <strong>Department:</strong>
+    <span id="dashboardDepartment">-</span>
+</p>
+
+<p>
+    <strong>Year:</strong>
+    <span id="dashboardYear">-</span>
+</p>
+
+<p>
+    <strong>Career Goal:</strong>
+    <span id="dashboardRole">-</span>
+</p>
+
+<p>
+    <strong>Domain:</strong>
+    <span id="dashboardDomain">-</span>
+</p>
+    </div>
+
+
+    <!-- Skill Progress -->
+
+    <div class="dashboard-card">
+
+        <h2>🎯 Skill Progress</h2>
+
+        <p>Your current skill readiness</p>
+
+        <div class="progress">
+
+            <div id="dashboardProgress"></div>
+        </div>
+
+        <h3 id="dashboardReadiness">0% Ready</h3>
+
+    </div>
+
+
+    <!-- Skill Analysis -->
+
+    <div class="dashboard-card">
+
+        <h2>🔍 Skill Analysis</h2>
+
+        <p>
+            Analyze your current skills and identify skills gaps.
+        </p>
+
+        <button onclick="window.location.href='skill-analysis.html'">
+            Open Skill Analysis
+        </button>
+
+    </div>
+
+
+    <!-- Career Recommendation -->
+
+    <div class="dashboard-card">
+
+        <h2>🎯 Career Recommendation</h2>
+
+        <p>
+            Find suitable career paths based on your skills.
+        </p>
+
+        <button onclick="window.location.href='career.html'">
+            Open Career Recommendation
+        </button>
+
+    </div>
+
+
+    <!-- Learning Roadmap -->
+
+    <div class="dashboard-card">
+
+        <h2>🗺️ Learning Roadmap</h2>
+
+        <p>
+            Generate a personalized learning roadmap.
+        </p>
+
+        <button onclick="window.location.href='roadmap.html'">
+            Open Learning Roadmap
+        </button>
+
+    </div>
+
+
+    <!-- Resume Analyzer -->
+
+    <div class="dashboard-card">
+
+        <h2>📄 Resume Analyzer</h2>
+
+        <p>
+            Analyze your resume and get readiness.
+        </p>
+
+        <button onclick="window.location.href='resume.html'">
+            Open Resume Analyzer
+        </button>
+
+    </div>
+
+
+    <!-- Logout -->
+
+    <button class="logout-button" onclick="logoutUser()">
+        Logout
+    </button>
+
+</section>
+
+
+<script src="../script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Student Registration</title>
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<section class="register">
+
+<h1>Student Registration</h1>
+
+<form id="registerForm">
+
+<input type="text"
+id="studentName"
+placeholder="Full Name"
+required>
+
+<input type="text"
+id="collegeName"
+placeholder="College Name"
+required>
+
+<input type="text"
+id="department"
+placeholder="Department"
+required>
+
+<input type="text"
+id="yearOfStudy"
+placeholder="Year of Study"
+required>
+
+<input type="text"
+id="currentSkills"
+placeholder="Current Skills"
+required>
+
+<input type="text"
+id="dreamDomain"
+placeholder="Dream Domain"
+required>
+
+<input type="text"
+id="dreamRole"
+placeholder="Dream Job Role"
+required>
+
+<button type="submit">
+Register
+</button>
+
+</form>
+
+</section>
+
+<script>
+
+document.getElementById("registerForm").addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    let studentData = {
+
+        name: document.getElementById("studentName").value,
+        college: document.getElementById("collegeName").value,
+        department: document.getElementById("department").value,
+        year: document.getElementById("yearOfStudy").value,
+        skills: document.getElementById("currentSkills").value,
+        domain: document.getElementById("dreamDomain").value,
+        dreamRole: document.getElementById("dreamRole").value,
+        role: document.getElementById("dreamRole").value
+
+    };
+
+    localStorage.setItem(
+        "studentData",
+        JSON.stringify(studentData)
+    );
+
+    alert("Registration Successful! 🎉");
+
+    window.location.href = "login.html";
+
+});
+
+</script>
+
+</body>
+
+</html>

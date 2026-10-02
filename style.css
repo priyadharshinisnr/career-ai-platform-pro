@@ -1,0 +1,1484 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #0d6efd;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 50px;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: yellow;
+}
+/* Hero Section */
+
+.hero{
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:48px;
+    color:#0d6efd;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    color:#555;
+    margin-bottom:35px;
+}
+
+.hero button{
+
+    background:#0d6efd;
+    color:white;
+
+    border:none;
+
+    padding:15px 35px;
+
+    font-size:20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.hero button:hover{
+
+    background:#084fc7;
+
+}
+/* Features Section */
+
+.features{
+    padding:80px 50px;
+    text-align:center;
+}
+
+.features h2{
+    font-size:36px;
+    color:#0d6efd;
+    margin-bottom:40px;
+}
+
+.feature-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.card{
+    background:white;
+    width:260px;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#0d6efd;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#555;
+    line-height:1.6;
+}/* Footer */
+
+footer{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+    margin-top:80px;
+}
+
+footer h3{
+    margin-bottom:10px;
+    font-size:28px;
+}
+
+footer p{
+    margin:8px 0;
+    font-size:16px;
+}
+/* Registration Page */
+
+.register{
+
+width:450px;
+
+margin:60px auto;
+
+background:white;
+
+padding:30px;
+
+border-radius:12px;
+
+box-shadow:0 0 15px rgba(0,0,0,0.1);
+
+}
+
+.register h1{
+
+text-align:center;
+
+margin-bottom:25px;
+
+color:#0d6efd;
+
+}
+
+.register form{
+
+display:flex;
+
+flex-direction:column;
+
+}
+
+.register input{
+
+padding:12px;
+
+margin:10px 0;
+
+font-size:16px;
+
+border:1px solid #ccc;
+
+border-radius:6px;
+
+}
+
+.register button{
+
+margin-top:20px;
+
+padding:14px;
+
+background:#0d6efd;
+
+color:white;
+
+border:none;
+
+font-size:18px;
+
+border-radius:6px;
+
+cursor:pointer;
+
+}
+
+.register button:hover{
+
+background:#084fc7;
+
+}
+/* Login Page */
+
+.login{
+
+width:400px;
+
+margin:80px auto;
+
+background:white;
+
+padding:30px;
+
+border-radius:12px;
+
+box-shadow:0 0 15px rgba(0,0,0,0.1);
+
+}
+
+
+.login h1{
+
+text-align:center;
+
+color:#0d6efd;
+
+margin-bottom:25px;
+
+}
+
+
+.login form{
+
+display:flex;
+
+flex-direction:column;
+
+}
+
+
+.login input{
+
+padding:12px;
+
+margin:10px 0;
+
+border-radius:6px;
+
+border:1px solid #ccc;
+
+font-size:16px;
+
+}
+
+
+.login button{
+
+padding:12px;
+
+margin-top:20px;
+
+background:#0d6efd;
+
+color:white;
+
+border:none;
+
+border-radius:6px;
+
+font-size:18px;
+
+cursor:pointer;
+
+}
+
+
+.login button:hover{
+
+background:#084fc7;
+
+}
+
+
+.login p{
+
+text-align:center;
+
+margin-top:20px;
+
+}
+/* Dashboard */
+
+.dashboard{
+
+width:700px;
+
+margin:50px auto;
+
+text-align:center;
+
+}
+
+
+.dashboard h1{
+
+color:#0d6efd;
+
+}
+
+
+.dashboard-card{
+
+background:white;
+
+padding:25px;
+
+margin:20px;
+
+border-radius:12px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.progress{
+
+height:15px;
+
+background:#ddd;
+
+border-radius:10px;
+
+margin-bottom:15px;
+
+}
+
+
+.html{
+
+width:80%;
+
+height:100%;
+
+background:#0d6efd;
+
+border-radius:10px;
+
+}
+
+
+.python{
+
+width:60%;
+
+height:100%;
+
+background:#0d6efd;
+
+border-radius:10px;
+
+}
+
+
+.sql{
+
+width:40%;
+
+height:100%;
+
+background:#0d6efd;
+
+border-radius:10px;
+
+}
+
+
+.dashboard button{
+
+padding:15px 30px;
+
+background:#0d6efd;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+font-size:18px;
+
+}
+/* About Section */
+
+.about{
+
+padding:70px 50px;
+
+text-align:center;
+
+}
+
+
+.about h2{
+
+color:#0d6efd;
+
+font-size:36px;
+
+margin-bottom:20px;
+
+}
+
+
+/* Contact Section */
+
+.contact{
+
+padding:70px 50px;
+
+text-align:center;
+
+}
+
+
+.contact input,
+.contact textarea{
+
+display:block;
+
+width:350px;
+
+margin:15px auto;
+
+padding:12px;
+
+border-radius:6px;
+
+border:1px solid #ccc;
+
+}
+
+
+.contact textarea{
+
+height:120px;
+
+}
+
+
+.contact button{
+
+padding:12px 30px;
+
+background:#0d6efd;
+
+color:white;
+
+border:none;
+
+border-radius:6px;
+
+cursor:pointer;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+/* Skill Analysis */
+
+.skill-analysis{
+
+width:600px;
+
+margin:50px auto;
+
+background:white;
+
+padding:30px;
+
+border-radius:12px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+.skill-analysis h1{
+
+text-align:center;
+
+color:#0d6efd;
+
+margin-bottom:25px;
+
+}
+
+.skill-analysis label{
+
+display:block;
+
+margin-top:15px;
+
+font-weight:bold;
+
+}
+
+.skill-analysis input,
+.skill-analysis select{
+
+width:100%;
+
+padding:12px;
+
+margin-top:8px;
+
+border-radius:6px;
+
+border:1px solid #ccc;
+
+}
+
+.skill-analysis button{
+
+margin-top:20px;
+
+width:100%;
+
+padding:15px;
+
+background:#0d6efd;
+
+color:white;
+
+border:none;
+
+border-radius:6px;
+
+font-size:18px;
+
+cursor:pointer;
+
+}
+
+#result{
+
+margin-top:30px;
+
+font-size:18px;
+
+font-weight:bold;
+
+}
+/* Learning Roadmap */
+
+.roadmap{
+
+width:700px;
+
+margin:50px auto;
+
+background:white;
+
+padding:30px;
+
+border-radius:12px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+text-align:center;
+
+}
+
+.roadmap select{
+
+width:100%;
+
+padding:12px;
+
+margin:20px 0;
+
+border-radius:6px;
+
+border:1px solid #ccc;
+
+}
+
+.roadmap button{
+
+padding:15px 30px;
+
+background:#0d6efd;
+
+color:white;
+
+border:none;
+
+border-radius:6px;
+
+font-size:18px;
+
+cursor:pointer;
+
+}
+
+.roadmap button:hover{
+
+background:#084fc7;
+
+}
+
+#roadmapResult{
+
+margin-top:30px;
+
+text-align:left;
+
+line-height:1.8;
+
+}
+/* Career Recommendation */
+
+.career{
+
+width:700px;
+
+margin:50px auto;
+
+background:white;
+
+padding:30px;
+
+border-radius:12px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.career h1{
+
+text-align:center;
+
+color:#0d6efd;
+
+}
+
+
+.career input{
+
+width:100%;
+
+padding:12px;
+
+margin:20px 0;
+
+border-radius:6px;
+
+border:1px solid #ccc;
+
+}
+
+
+.career button{
+
+width:100%;
+
+padding:15px;
+
+background:#0d6efd;
+
+color:white;
+
+border:none;
+
+border-radius:6px;
+
+font-size:18px;
+
+cursor:pointer;
+
+}
+
+
+#careerResult{
+
+margin-top:30px;
+
+font-size:18px;
+
+line-height:1.8;
+
+}
+/* Resume Analyzer */
+
+.resume{
+
+    width:700px;
+
+    margin:50px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+.resume h1{
+
+    text-align:center;
+
+    color:#0d6efd;
+
+    margin-bottom:15px;
+
+}
+
+.resume p{
+
+    text-align:center;
+
+    color:#555;
+
+}
+
+.resume textarea{
+
+    width:100%;
+
+    height:250px;
+
+    margin-top:20px;
+
+    padding:15px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+    resize:vertical;
+
+}
+
+.resume button{
+
+    width:100%;
+
+    margin-top:20px;
+
+    padding:15px;
+
+    background:#0d6efd;
+
+    color:white;
+
+    border:none;
+
+    border-radius:6px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+.resume button:hover{
+
+    background:#084fc7;
+
+}
+
+#resumeResult{
+
+    margin-top:30px;
+
+    line-height:1.8;
+
+}
+/* ================= DASHBOARD UPGRADE ================= */
+
+.dashboard{
+
+    width:800px;
+
+    max-width:90%;
+
+    margin:50px auto;
+
+    text-align:center;
+
+}
+
+.dashboard > h1{
+
+    color:#0d6efd;
+
+    font-size:36px;
+
+    margin-bottom:10px;
+
+}
+
+.dashboard > p{
+
+    color:#555;
+
+    margin-bottom:30px;
+
+}
+
+
+.dashboard-card{
+
+    background:white;
+
+    padding:25px;
+
+    margin:20px 0;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.dashboard-card h2{
+
+    color:#0d6efd;
+
+    margin-bottom:12px;
+
+}
+
+
+.dashboard-card p{
+
+    color:#555;
+
+    margin:8px 0;
+
+}
+
+
+.dashboard-card button{
+
+    margin-top:15px;
+
+    padding:12px 25px;
+
+    background:#0d6efd;
+
+    color:white;
+
+    border:none;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+
+.dashboard-card button:hover{
+
+    background:#084fc7;
+
+}
+
+
+/* Skill Progress */
+
+.skill-progress{
+
+    width:60%;
+
+    height:100%;
+
+    background:#0d6efd;
+
+    border-radius:10px;
+
+}
+
+
+/* Logout */
+
+.logout-button{
+
+    margin-top:20px;
+
+    padding:14px 35px;
+
+    background:#dc3545;
+
+    color:white;
+
+    border:none;
+
+    border-radius:7px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+}
+
+.logout-button:hover{
+
+    background:#b02a37;
+
+}
+/* ================= ADMIN DASHBOARD ================= */
+
+.admin {
+    width: 900px;
+    max-width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.admin h1 {
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+.admin > p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+
+/* Admin Cards */
+
+.admin-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.admin-card {
+    background: white;
+    width: 200px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.admin-card h2 {
+    font-size: 30px;
+}
+
+.admin-card h3 {
+    color: #0d6efd;
+    margin: 10px 0;
+}
+
+.admin-card p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/* Admin Sections */
+
+.admin-section {
+    background: white;
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.admin-section h2 {
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+.admin-section p {
+    color: #555;
+}
+
+.admin-section button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* Logout */
+
+.admin-logout {
+    margin-top: 30px;
+    padding: 12px 30px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* ================= ADMIN LOGIN ================= */
+
+.admin-login{
+
+    width:400px;
+
+    margin:100px auto;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+    text-align:center;
+
+}
+
+.admin-login h1{
+
+    color:#0d6efd;
+
+    margin-bottom:10px;
+
+}
+
+.admin-login p{
+
+    color:#555;
+
+    margin-bottom:25px;
+
+}
+
+.admin-login form{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.admin-login input{
+
+    padding:13px;
+
+    margin:10px 0;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+}
+
+.admin-login button{
+
+    margin-top:15px;
+
+    padding:13px;
+
+    background:#0d6efd;
+
+    color:white;
+
+    border:none;
+
+    border-radius:6px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+}
+/* ================= RESUME ANALYZER ================= */
+
+.resume-analyzer{
+
+    width:650px;
+
+    margin:50px auto;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+    text-align:center;
+
+}
+
+.resume-analyzer h1{
+
+    color:#0d6efd;
+
+    margin-bottom:15px;
+
+}
+
+.resume-analyzer p{
+
+    color:#555;
+
+    margin-bottom:25px;
+
+}
+
+.resume-analyzer label{
+
+    display:block;
+
+    text-align:left;
+
+    margin-top:15px;
+
+    font-weight:bold;
+
+}
+
+.resume-analyzer select,
+.resume-analyzer textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:8px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+}
+
+.resume-analyzer textarea{
+
+    height:120px;
+
+    resize:vertical;
+
+}
+
+.resume-analyzer button{
+
+    margin-top:20px;
+
+    padding:14px 30px;
+
+    background:#0d6efd;
+
+    color:white;
+
+    border:none;
+
+    border-radius:6px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+#resumeResult{
+
+    margin-top:30px;
+
+    text-align:left;
+
+}
+/* ================= CAREER RECOMMENDATION ================= */
+
+.career-recommendation{
+
+    width:650px;
+
+    margin:50px auto;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+    text-align:center;
+
+}
+
+.career-recommendation h1{
+
+    color:#0d6efd;
+
+    margin-bottom:15px;
+
+}
+
+.career-recommendation p{
+
+    color:#555;
+
+    margin-bottom:25px;
+
+}
+
+.career-recommendation label{
+
+    display:block;
+
+    text-align:left;
+
+    margin-top:15px;
+
+    font-weight:bold;
+
+}
+
+.career-recommendation textarea{
+
+    width:100%;
+
+    height:120px;
+
+    padding:12px;
+
+    margin-top:8px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+    resize:vertical;
+
+}
+
+.career-recommendation button{
+
+    margin-top:20px;
+
+    padding:14px 30px;
+
+    background:#0d6efd;
+
+    color:white;
+
+    border:none;
+
+    border-radius:6px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+#careerResult{
+
+    margin-top:30px;
+
+    text-align:left;
+
+    line-height:1.8;
+
+}
+/* ================= STUDENT MANAGEMENT TABLE ================= */
+
+.student-table-container{
+
+    width:100%;
+
+    overflow-x:auto;
+
+    margin-top:30px;
+
+}
+
+
+.student-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+}
+
+
+.student-table th{
+
+    background:#0d6efd;
+
+    color:white;
+
+    padding:15px;
+
+    text-align:center;
+
+}
+
+
+.student-table td{
+
+    padding:15px;
+
+    text-align:center;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+
+.student-table tr:hover{
+
+    background:#f4f7fc;
+
+}
+/* ================= REPORT SUMMARY ================= */
+
+.report-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+    margin-top:30px;
+
+    margin-bottom:30px;
+
+}
+
+
+.report-card{
+
+    background:white;
+
+    width:200px;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.report-card h2{
+
+    font-size:30px;
+
+}
+
+
+.report-card h3{
+
+    color:#0d6efd;
+
+    margin:10px 0;
+
+}
+
+
+.report-card p{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
+/* ================= REGISTER PAGE ================= */
+
+.register {
+    width: 90%;
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 35px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.register h1 {
+    color: #0077cc;
+    margin-bottom: 30px;
+}
+
+.register form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.register input {
+    width: 100%;
+    padding: 14px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.register input:focus {
+    outline: none;
+    border-color: #0077cc;
+}
+
+.register button {
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #0077cc;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register button:hover {
+    background: #005fa3;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Resume Analyzer</title>
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<section class="resume-analyzer">
+
+    <h1>📄 Resume Analyzer</h1>
+
+    <p>
+        Enter the skills from your resume and analyze your carrer readiness.
+    </p>
+
+    <label>Select Career Role</label>
+
+    <select id="resumeRole">
+
+        <option>AI Engineer</option>
+
+        <option>Java Developer</option>
+
+        <option>Python Developer</option>
+
+        <option>Full Stack Developer</option>
+
+    </select>
+
+    <label>Enter Resume Skills</label>
+
+    <textarea
+        id="resumeSkills"
+        placeholder="Example: Python, SQL, Machine Learning, Git"
+    ></textarea>
+
+    <button onclick="analyzeResume()">
+        Analyze Resume
+    </button>
+
+    <div id="resumeResult"></div>
+
+</section>
+
+<script src="../script.js"></script>
+
+</body>
+
+</html>

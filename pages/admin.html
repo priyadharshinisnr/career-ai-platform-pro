@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Admin Dashboard</title>
+
+<link rel="stylesheet" href="../style.css">
+
+<script>
+if(sessionStorage.getItem("adminLoggedIn") !== "true"){
+    window.location.href = "admin-login.html";
+}
+</script>
+
+</head>
+
+<body>
+
+<section class="admin">
+
+<h1>⚙️ Admin Dashboard</h1>
+
+<p>Career AI Platform Pro Management Panel</p>
+
+<div class="admin-container">
+
+<div class="admin-card">
+
+<h2>👨‍🎓</h2>
+
+<h3>Total Students</h3>
+
+<p id="totalStudents">0</p>
+
+</div>
+
+
+<div class="admin-card">
+
+<h2>🔍</h2>
+
+<h3>Skill Analyses</h3>
+
+<p id="skillAnalyses">0</p>
+
+</div>
+
+
+<div class="admin-card">
+
+<h2>📄</h2>
+
+<h3>Resumes Analyzed</h3>
+
+<p id="resumesAnalyzed">0</p>
+
+</div>
+
+
+<div class="admin-card">
+
+<h2>🎯</h2>
+
+<h3>Career Recommendations</h3>
+
+<p id="careerRecommendations">0</p>
+
+</div>
+
+</div>
+
+
+<div class="admin-section">
+
+<h2>👨‍🎓 Student Management</h2>
+
+<p>View and manage registered students.</p>
+
+<button onclick="window.location.href='students.html'"> View Students</button>
+
+</div>
+
+
+<div class="admin-section">
+
+<h2>📊 Skill Analysis Reports</h2>
+
+<p>View student skill analysis reports.</p>
+
+<button onclick="window.location.href='reports.html'">View Reports</button>
+
+
+</div>
+
+
+<button class="admin-logout"onclick="window.location.href='admin-login.html'">Logout</button>
+
+</section>
+<script src="../script.js"></script>
+</body>
+
+</html>
