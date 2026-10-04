@@ -30,12 +30,13 @@ The platform provides separate modules for students and administrators to make c
 ## ⚙️ How It Works
 
 1. Students register and log in to the platform.
-2. They select their career goal and domain.
-3. Their skills are analyzed based on the provided information.
-4. The platform provides career recommendations.
-5. Students can view their skill progress and learning roadmap.
-6. The Resume Analyzer helps students review their skills and career role.
-7. Administrators can manage students and view platform reports.
+2. Students select their career goal and domain.
+3. The platform analyzes the provided skills.
+4. Career recommendations are displayed.
+5. Students can view their skill progress.
+6. Students can access a personalized learning roadmap.
+7. The Resume Analyzer helps students review their skills and career role.
+8. Administrators can manage students and view reports.
 
 ## 📂 Project Structure
 
@@ -58,8 +59,7 @@ Career-AI-Platform-Pro/
 ├── index.html
 ├── script.js
 └── style.css
-...
-
+```
 
 ## 🌐 Live Demo
 
