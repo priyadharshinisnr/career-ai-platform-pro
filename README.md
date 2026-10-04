@@ -62,7 +62,7 @@ Career-AI-Platform-Pro/
 
 ## 🌐 Live Demo
 
-[Career AI Platform Pro](https://comforting-cranachan-65be3e.netlify.app)
+[🌐 Career AI Platform Pro - Live Demo](https://comforting-cranachan-65be3e.netlify.app/)
 
 ## 🎯 Target Users
 
