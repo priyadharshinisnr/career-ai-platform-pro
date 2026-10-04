@@ -58,6 +58,7 @@ Career-AI-Platform-Pro/
 ├── index.html
 ├── script.js
 └── style.css
+...
 
 
 ## 🌐 Live Demo
